@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="1000" height="20" tilewidth="128" tileheight="128" infinite="0" nextobjectid="24">
+ <tileset firstgid="1" name="Tilesset" tilewidth="188" tileheight="238" tilecount="41" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="128" height="128" source="tiles/1.png"/>
+  </tile>
+  <tile id="1">
+   <image width="128" height="128" source="tiles/2.png"/>
+  </tile>
+  <tile id="2">
+   <image width="128" height="128" source="tiles/3.png"/>
+  </tile>
+  <tile id="3">
+   <image width="129" height="129" source="tiles/4.png"/>
+  </tile>
+  <tile id="4">
+   <image width="128" height="128" source="tiles/5.png"/>
+  </tile>
+  <tile id="5">
+   <image width="128" height="128" source="tiles/6.png"/>
+  </tile>
+  <tile id="6">
+   <image width="128" height="128" source="tiles/7.png"/>
+  </tile>
+  <tile id="7">
+   <image width="128" height="128" source="tiles/8.png"/>
+  </tile>
+  <tile id="8">
+   <image width="128" height="128" source="tiles/9.png"/>
+  </tile>
+  <tile id="9">
+   <image width="128" height="128" source="tiles/10.png"/>
+  </tile>
+  <tile id="10">
+   <image width="128" height="128" source="tiles/11.png"/>
+  </tile>
+  <tile id="11">
+   <image width="128" height="128" source="tiles/12.png"/>
+  </tile>
+  <tile id="12">
+   <image width="128" height="93" source="tiles/13.png"/>
+  </tile>
+  <tile id="13">
+   <image width="128" height="93" source="tiles/14.png"/>
+  </tile>
+  <tile id="14">
+   <image width="128" height="93" source="tiles/15.png"/>
+  </tile>
+  <tile id="15">
+   <image width="128" height="128" source="tiles/16.png"/>
+  </tile>
+  <tile id="16">
+   <image width="128" height="99" source="tiles/17.png"/>
+  </tile>
+  <tile id="17">
+   <image width="128" height="128" source="tiles/18.png"/>
+  </tile>
+  <tile id="18">
+   <image width="77" height="77" source="tiles/coin (1).png"/>
+  </tile>
+  <tile id="19">
+   <image width="56" height="78" source="tiles/coin (2).png"/>
+  </tile>
+  <tile id="20">
+   <image width="22" height="77" source="tiles/coin (3).png"/>
+  </tile>
+  <tile id="21">
+   <image width="56" height="78" source="tiles/coin (4).png"/>
+  </tile>
+  <tile id="22">
+   <image width="110" height="110" source="tiles/crate.png"/>
+  </tile>
+  <tile id="23">
+   <image width="188" height="238" source="tiles/door.png"/>
+  </tile>
+  <tile id="24">
+   <image width="127" height="60" source="tiles/mov_platform.png"/>
+  </tile>
+  <tile id="25">
+   <image width="128" height="80" source="tiles/spike.png"/>
+  </tile>
+  <tile id="26">
+   <image width="128" height="128" source="tiles/tile_1.png"/>
+  </tile>
+  <tile id="27">
+   <image width="128" height="128" source="tiles/tile_2.png"/>
+  </tile>
+  <tile id="28">
+   <image width="128" height="128" source="tiles/tile_3.png"/>
+  </tile>
+  <tile id="29">
+   <image width="128" height="128" source="tiles/tile_4.png"/>
+  </tile>
+  <tile id="30">
+   <image width="128" height="128" source="tiles/tile_5.png"/>
+  </tile>
+  <tile id="31">
+   <image width="128" height="128" source="tiles/tile_6.png"/>
+  </tile>
+  <tile id="32">
+   <image width="128" height="128" source="tiles/tile_7.png"/>
+  </tile>
+  <tile id="33">
+   <image width="128" height="128" source="tiles/tile_8.png"/>
+  </tile>
+  <tile id="34">
+   <image width="128" height="128" source="tiles/tile_9.png"/>
+  </tile>
+  <tile id="35">
+   <image width="128" height="128" source="tiles/tile_10.png"/>
+  </tile>
+  <tile id="36">
+   <image width="128" height="128" source="tiles/tile_11.png"/>
+  </tile>
+  <tile id="37">
+   <image width="128" height="128" source="tiles/tile_12.png"/>
+  </tile>
+  <tile id="38">
+   <image width="128" height="126" source="tiles/trampoline (1).png"/>
+  </tile>
+  <tile id="39">
+   <image width="128" height="114" source="tiles/trampoline (2).png"/>
+  </tile>
+  <tile id="40">
+   <image width="128" height="100" source="tiles/trampoline (3).png"/>
+  </tile>
+ </tileset>
+ <objectgroup name="background" offsetx="-185.697" offsety="-253.939">
+  <object id="9" gid="27" x="128" y="1536" width="128" height="128"/>
+  <object id="10" gid="27" x="256" y="1536" width="128" height="128"/>
+  <object id="11" gid="27" x="384" y="1536" width="128" height="128"/>
+  <object id="12" gid="27" x="512" y="1536" width="128" height="128"/>
+  <object id="13" gid="27" x="640" y="1536" width="128" height="128"/>
+  <object id="14" gid="27" x="768" y="1536" width="128" height="128"/>
+  <object id="15" gid="27" x="896" y="1536" width="128" height="128"/>
+  <object id="16" gid="27" x="1024" y="1536" width="128" height="128"/>
+  <object id="17" gid="27" x="1280" y="1536" width="128" height="128"/>
+  <object id="18" gid="27" x="1536" y="1536" width="128" height="128"/>
+  <object id="19" gid="27" x="1152" y="1536" width="128" height="128"/>
+  <object id="20" gid="27" x="1408" y="1536" width="128" height="128"/>
+  <object id="21" gid="27" x="1664" y="1536" width="128" height="128"/>
+  <object id="22" gid="27" x="1792" y="1536" width="128" height="128"/>
+  <object id="23" gid="24" x="128" y="1408" width="188" height="238"/>
+ </objectgroup>
+</map>
